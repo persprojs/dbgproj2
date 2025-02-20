@@ -1,0 +1,33 @@
+.categories-menu {
+    text-align: left; /* Ensure text alignment is left */
+    padding-left: 0; /* Remove any default padding */
+    margin-left: 0; /* Remove left margin */
+    width: 270px;
+  }
+  
+  .categories-menu ul {
+    list-style-type: none; /* Remove default list styles */
+    padding-left: 0; /* Remove padding */
+    margin-left: 0; /* Remove left margin */
+  }
+  
+  .categories-menu li {
+    margin-bottom: 10px; /* Add spacing between items */
+    margin-left: 0; /* Remove left margin */
+  }
+  
+  /* Submenu styling */
+  .submenu {
+    padding-left: 1rem; /* 1.5 tabs indentation */
+  }
+  
+  .submenu ul {
+    padding-left: 1rem; /* Additional indentation for nested submenus */
+  }
+  
+  /* Button styling */
+  .categories-menu .btn-link {
+    text-decoration: none; /* Remove underline from buttons */
+    color: inherit; /* Inherit text color */
+    padding-left: 0; /* Remove left padding */
+  }

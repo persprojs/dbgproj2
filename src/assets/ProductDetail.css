@@ -1,0 +1,33 @@
+/* Container for Product Detail */
+.product-detail-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Product Detail Card */
+  .product-detail-card {
+    max-width: 220px;
+    max-height: 220px;
+    margin: 0 auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Hover Effects */
+  .product-detail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom Product Image Styling */
+  .product-img {
+    height: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Custom Product Title Styling */
+  .product-title {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+  

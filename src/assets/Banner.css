@@ -1,0 +1,17 @@
+.banner-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    padding-inline: 1rem; /* Add padding to the left and right */
+    overflow: hidden;
+    border-radius: 15px; /* Match this value with the image's border-radius */
+    margin-bottom: 20px;   /* Add margin to the bottom */
+  }
+  
+  .banner-img {
+    width: 50%; /* Set image width to 60% of the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image is covered without distortion */
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Add a subtle shadow */
+  }
+  
